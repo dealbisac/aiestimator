@@ -18,7 +18,7 @@ def process_query(pdf_path, query):
     return translate_text(answer, lang) if lang != "en" else answer
 
 if __name__ == "__main__":
-    path = "example.pdf"
+    path = "datsets/Estimating-Costing-civil.pdf"
     while True:
         q = input("Ask a quantity estimation question (or type 'exit'): ")
         if q.lower() == "exit":
